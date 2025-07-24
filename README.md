@@ -47,7 +47,7 @@ python full_pipeline_ollama.py
 --vlm-prompt <optional: custom prompt for vision model>
 ```
 
-ℹ️ Note that Hugginface with download the VLM from Hugginface Hub, so make sure it is downloaded in the right place by setting the `HF_HOME` environment variable.
+ℹ️ Note that Hugginface will download the VLM from Hugginface Hub, so make sure it is downloaded in the right place by setting the `HF_HOME` environment variable.
 
 Also you can manage/download models with the hugginface-cli python module : `pip install -U "huggingface_hub[cli]"`
 
